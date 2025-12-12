@@ -13,7 +13,7 @@ const RestaurentCard = (props) => {
     <div className="res-card">
       <img
         className="res-card-logo"
-         src={`https://media-assets.swiggy.com/swiggy/image/upload/${cloudinaryImageId}`}
+         src={"https://media-assets.swiggy.com/swiggy/image/upload/"+ cloudinaryImageId}
       />
       <h3>{name}</h3>
       <h4>{avgRating}</h4>

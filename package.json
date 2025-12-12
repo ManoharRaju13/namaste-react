@@ -4,8 +4,8 @@
   "description": "This is namaste react by Manohar",
   "scripts": {
     "test": "jest",
-    "start" : "parcel react01.html",
-    "build" : "parcel build react01.html"
+    "start": "parcel react01.html",
+    "build": "parcel build react01.html"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,8 @@
   },
   "dependencies": {
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "react-router": "^6.14.1",
+    "react-router-dom": "^6.14.1"
   }
 }
